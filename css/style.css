@@ -1,18 +1,19 @@
 body {
     margin: 0px;
 }
-
+/* navigation-bar */
 .navigation-bar {
     position: fixed;
     width: 100%;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 30%);
 }
 
 .navigation-bar li {
     display: flex;
     justify-content: right;
-    gap: 1em;
+    gap: 1rem;
     background-color: brown;
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 .navigation-bar li ul {
@@ -25,13 +26,35 @@ body {
     color: white;
 }
 
+/* home */
 .hero {
     background-color: aquamarine;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.hero .header-1 {
+    font-size: 3rem;
+}
+
+.hero .header-2 {
+    font-size: 2rem;
+}
+
+.hero div span {
+    color: blue;
+}
+
+/* about */
 .about {
     background-color: blueviolet;
     height: 100vh;
+}
+
+h3 {
+    margin: 0px;
 }
 
