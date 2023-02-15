@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.navigation-bar li {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    background-color: brown;
+    padding: 0 1em;
+}
+
+.navigation-bar li ul {
+    padding: 0;
+}
+
+
+.navigation-bar li ul a {
+    text-decoration: none;
+}
+
